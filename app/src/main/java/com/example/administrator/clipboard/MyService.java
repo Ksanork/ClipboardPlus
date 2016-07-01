@@ -78,7 +78,6 @@ public class MyService extends Service {
                 public void run() {
 
                     initServer();
-                    //stopSelf();
                 }
             }).start();
 
