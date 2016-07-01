@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Clipboard+</string>
+
+    <string name="add_device">Dodaj urządzenie</string>
+    <string name="change_port">Zmień port</string>
+
+    <string name="connecting">Łączenie...</string>
+    <string name="connected">Połączeny</string>
+    <string name="disconnected">Rozłączony</string>
+    <string name="title_activity_add_device">AddDevice</string>
+
+    <string name="CONN_CHECK">fdjf869#34HS^%@--check_connection</string>
+    <string name="CONN_OK">hfdu77@Gyhd38Ua---connection_ok</string>
+    <string name="CONN_REJECTED">ag478shd^7T7shs---connection_rejected</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
