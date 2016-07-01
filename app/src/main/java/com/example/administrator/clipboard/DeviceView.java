@@ -28,7 +28,6 @@ public class DeviceView extends LinearLayout {
         TextView textName = new TextView(c);
         textName.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
         textName.setText(d.getName());
-        //textCel.setTypeface(null, Typeface.BOLD);
         textName.setTextSize(18);
         addView(textName);
 

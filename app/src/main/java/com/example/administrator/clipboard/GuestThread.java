@@ -24,6 +24,7 @@ public class GuestThread implements Runnable {
     private Socket incoming;
     private MyService ma;
     private ClipboardManager clipboard;
+    private ClipboardManager clipboard2;
 
     GuestThread(MyService ma, Socket incoming, ClipboardManager clip) {
         this.incoming = incoming;
@@ -87,9 +88,7 @@ public class GuestThread implements Runnable {
 
 
 
-            //tray.displayMessage("Wiadomość!", in.nextLine(), TrayIcon.MessageType.INFO);
-            //}
-            //finally {
+
             incoming.close();
             //s.close();
         } catch (java.io.IOException ex) {
