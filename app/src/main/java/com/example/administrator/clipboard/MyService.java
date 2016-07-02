@@ -72,7 +72,7 @@ public class MyService extends Service {
                 }
             });
 
-            //System.out.println(clip);
+
             new Thread(new Runnable() {
                 @Override
                 public void run() {
